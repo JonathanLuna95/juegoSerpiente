@@ -145,19 +145,15 @@ function cambiarDireccion(nuevaDireccion) {
   if (direccionActual == "derecha" && nuevaDireccion == "izquierda") {
     return;
   }
-
   if (direccionActual == "izquierda" && nuevaDireccion == "derecha") {
     return;
   }
-
   if (direccionActual == "arriba" && nuevaDireccion == "abajo") {
     return;
   }
-
   if (direccionActual == "abajo" && nuevaDireccion == "arriba") {
     return;
   }
-
   direccionActual = nuevaDireccion;
 }
 
